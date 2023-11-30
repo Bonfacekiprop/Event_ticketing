@@ -10,7 +10,7 @@ The Event Ticketing System is a web application designed to facilitate the autho
 - Event creation and management with real-time updates.
 - Easy ticket purchasing and selling functionality.
 - Integration with MySQL database for data storage and retrieval.
-- [Add more features here]
+
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ Ensure you have the following software installed:
 
 - Node.js: [Download Node.js](https://nodejs.org/)
 - npm (Node Package Manager): [Install npm](https://www.npmjs.com/get-npm)
-- [Add other prerequisites here]
+
 
 ### Installation
 
