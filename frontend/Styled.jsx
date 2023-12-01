@@ -1,6 +1,6 @@
 //styles the home page regester page
 import styled from 'styled-components';
-import {Link as RouterLink} from 'react-dom';
+import { Link as RouterLink } from 'react-dom';
 
 export const colors ={
     primary: "#fff",
@@ -11,22 +11,24 @@ export const colors ={
     dark2: "#4B5563",
     dark3: "#DC2626",
     red: "#DC2626"
+};
 
-}
 export const StyledTitle =  styled.h2`
     font-size: ${(props) => props.size}px;
     text-align: center;
     color: ${(props) => props.colors ? props.colors: colors.primary }
     padding: 5px;
-    margin-bottom: 25px;`;
+    margin-bottom: 25px;
+`;
+
 export const StyledSubTitle = styled.p`
     font-size: ${(props) => props.size}px;
     text-align: center;
     color: ${(props) => props.colors ? props.colors: colors.primary }
     padding: 5px;
     margin-bottom: 25px;
-
 `;
+
 export const  Avatar = styled.div`
     width: 85px;
     height: 85px;
@@ -36,6 +38,7 @@ export const  Avatar = styled.div`
     background-position: center;
     margin: auto;
 `;
+
 export const StyledButton = styled(RouterLink)`
     padding: 10px;
     width: 150px;
@@ -53,8 +56,8 @@ export const StyledButton = styled(RouterLink)`
         color: ${colors.theme};
         cursor: pointer;
     }
-
 `;
+
 export const ButtonGroup = styled.div`
     display: flex;
     justify-content: space-around;
